@@ -2,12 +2,15 @@
 Comments
 /* */
 
+
 CSS Basics
 - External CSS [ tag html .css ]
 
 
+
 Simple Selectors
 - class > div class
+
 
 
 Attribute Selectors
@@ -17,10 +20,32 @@ Attribute Selectors
 
 
 
-Background
+Background 
 - background: var(--bg); property-variable-name variable root 
 - background: ; latar belakang 
 - 
+
+
+
+ALIGN-ITEMS // Meratakan elemen-elemen tengah atas bawah
+- align-items: center; Meratakan-elemen-tengah 
+
+
+JUSTIFY-CONTENT // Meratakan elemen-elemen tengah kiri kanan
+- justify-content: center;
+
+
+
+
+
+HEIGHT // tinggi 
+- min-height: 100vh; 100vh Tingginya selalu mengikuti tinggi layar
+- min-height: ; minimal tinggi 
+
+
+
+ DISPLAY // Menampilkan
+- display: flex; menampilkan-fleksibel Aktifkan sistem fleksibel 
 
 
 
@@ -29,10 +54,10 @@ PROPERTY & VALEU BOX MODEL
 
 
 
-MARGIN PADDING
-- margin: 0;                               - padding: 0;
-
-
+MARGIN & PADDING // batas & lapisan 
+- margin: 0; batas                             - padding: 0; lapisan
+-                                              - padding: 24px 16px; lapisan-atas dan bawah-kiri dan kanan
+    
 
 
 RESET DASAR .CSS
