@@ -1,16 +1,36 @@
 
-
+Comments
+/* */
 
 CSS Basics
 - External CSS [ tag html .css ]
+
+
+Simple Selectors
+- class > div class
+
+
+Attribute Selectors
+<font> 
+- font-family: 'inter', sans-serif; property-jenisfont- Huruf tanpa garis keci
+- font-family: ; keluarga huruf            
+
+
+
+PROPERTY Background
+- background: var(--bg); property-variable-name variable root 
+- background: ; latar belakang 
+- 
 
 
 
 PROPERTY & VALEU BOX MODEL 
 - box-sizing: border-box;               - box-shadow: var(--shadow);
 
-margin: 0;
-padding: 0;
+
+
+MARGIN PADDING
+- margin: 0;                               - padding: 0;
 
 
 
