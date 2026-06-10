@@ -66,8 +66,16 @@ WIDTH // Lebar
 
 
 
+
+
 PROPERTY & VALEU BOX MODEL 
 - box-sizing: border-box;               - box-shadow: var(--shadow);
+box =    [ kotak / elemen ]               box        [ kotak ]
+sizing = [ penentuan ukuran ]             shadow     [ bayangan ]
+border = [ garis tepi / batas ]           var        [ variabel root 
+box =    [ kotak / elemen ]               (--shadow) [ nama variabel root ]
+
+
 
 
 
