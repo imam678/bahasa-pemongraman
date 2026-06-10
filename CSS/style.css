@@ -36,11 +36,28 @@ JUSTIFY-CONTENT // Meratakan elemen-elemen tengah kiri kanan
 
 
 
+BORDER-RADIUS // Membuat sudut-sudut elemen menjadi melengkung, bukan tajam
+~ border [ garis tepi/batas elemen ]    ~ radius [ jari-jari lingkaran ]    ~ px [  seberapa besar lengkungannya ]
+---
+- border-radius: 24px;                  → Semua sudut melengkung sama besar
+- border-radius: 10px 20px;             → Sudut atas=10px, sudut bawah=20px
+- border-radius: 10px 15px 20px 25px;   → Atas kanan, bawah kanan, bawah kiri, atas kiri
 
 
-HEIGHT // tinggi 
+
+
+
+HEIGHT // Tinggi 
 - min-height: 100vh; 100vh Tingginya selalu mengikuti tinggi layar
 - min-height: ; minimal tinggi 
+
+
+WIDTH // Lebar
+- width: 100%; lebar seluruh 100% 
+- max-width: 400px; maximal lebar 400px 
+
+
+
 
 
 
@@ -56,8 +73,8 @@ PROPERTY & VALEU BOX MODEL
 
 MARGIN & PADDING // batas & lapisan 
 - margin: 0; batas                             - padding: 0; lapisan
--                                              - padding: 24px 16px; lapisan-atas dan bawah-kiri dan kanan
-    
+-                                              - padding: 24px 16px; lapisan [ atas dan bawah ] kiri dan kanan
+                                               - padding: 48px 36px 40px; lapisan [ atas ] kiri-kanan [ bawah ]
 
 
 RESET DASAR .CSS
