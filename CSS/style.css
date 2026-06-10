@@ -86,10 +86,16 @@ MARGIN & PADDING // batas & lapisan
 
 
 RESET DASAR .CSS
-*,
-*::before,
-*::after {
+*,          //  memilih SEMUA elemen
+*::before,  // Menerapkan aturan ke bagian buatan yang diletakkan di DEPAN isi setiap elemen
+*::after {  //  Bagian buatan otomatis yang diletakkan di belakang/akhir isi setiap elemen.
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}  
+// tujuanya supaya semua property di dalam {} bisa di terampkan sampai awal dan akhir 
+
+
+
+
+
