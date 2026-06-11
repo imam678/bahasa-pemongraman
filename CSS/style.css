@@ -27,6 +27,15 @@ Background
 
 
 
+
+warna
+#f0f0f0
+--shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // Mendefinisikan warna dengan tambahan transparansi.
+
+
+
+
+
 ALIGN-ITEMS // Meratakan elemen-elemen tengah atas bawah
 - align-items: center; Meratakan-elemen-tengah 
 
