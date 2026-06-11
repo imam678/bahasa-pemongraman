@@ -89,9 +89,18 @@ box =    [ kotak / elemen ]               (--shadow) [ nama variabel root ]
 
 
 MARGIN & PADDING // batas & lapisan 
-- margin: 0; batas                             - padding: 0; lapisan
+- margin: 0; batas                             - padding: 0; lapisan [ Ruang kosong di dalam, semua sisi: atas/bawah/kiri/kanan ]
 -                                              - padding: 24px 16px; lapisan [ atas dan bawah ] kiri dan kanan
                                                - padding: 48px 36px 40px; lapisan [ atas ] kiri-kanan [ bawah ]
+
+                                               - padding-top: 13px;    [ Hanya ruang atas ]
+                                               - padding-right: 13px;  [ Hanya ruang kanan 
+                                               - padding-bottom: 13px; [ Hanya ruang bawah ]
+                                               - padding-left: 13px;   [ Hanya ruang kiri ]
+
+
+
+
 
 
 RESET DASAR .CSS
