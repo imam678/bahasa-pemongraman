@@ -36,11 +36,11 @@ warna
 
 
 
-ALIGN-ITEMS // Meratakan elemen-elemen tengah atas bawah
+ALIGN-ITEMS // Meratakan elemen-elemen tengah atas bawah, di bagian dalam item,
 - align-items: center; Meratakan-elemen-tengah 
 
 
-JUSTIFY-CONTENT // Meratakan elemen-elemen tengah kiri kanan
+JUSTIFY-CONTENT // Meratakan elemen-elemen tengah kiri kanan, di bagian dalam item,
 - justify-content: center;
 
 
