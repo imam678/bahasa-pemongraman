@@ -89,6 +89,17 @@ POSITION // Posisi
 
 
 
+
+
+
+TRANSFORM // CSS memungkinkan Anda mengubah bentuk dan posisi elemen dalam ruang dua dimensi atau tiga dimensi. 
+- transform: translateX(-50%); // Tansformasi mengeser Atas-Bawah 
+
+
+
+
+
+
 PROPERTY & VALEU BOX MODEL 
 - box-sizing: border-box;               - box-shadow: var(--shadow);
 box =    [ kotak / elemen ]               box        [ kotak ]
