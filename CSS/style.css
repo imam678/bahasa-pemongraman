@@ -94,7 +94,9 @@ POSITION // Posisi
 
 TRANSFORM // CSS memungkinkan Anda mengubah bentuk dan posisi elemen dalam ruang dua dimensi atau tiga dimensi. 
 - transform: translateX(-50%); // Tansformasi mengeser Atas-Bawah 
-
+-----      ------- 
+- transform: translate(-50%, -50%); // Tansformasi mengeser Atas-Kiri 
+- transform: translate(-50%, -50%); // Tansformasi mengser Kanan-Bawah
 
 
 
