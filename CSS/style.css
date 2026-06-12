@@ -77,6 +77,18 @@ WIDTH // Lebar
 
 
 
+POSITION // Posisi
+- position: relative; //  untuk menggeser elemen dari posisi normalnya dalam alur dokumen <top> <right> <bottom> <left>
+- position: absolute; // memungkinkan Anda untuk menempatkan elemen secara tepat relatif terhadap leluhur terdekatnya yang telah diposisikan
+    top: 200px;   // atas 
+    left: 400px;  // bawah 
+    width: 400px; // lebar 
+    height: 100px; // tinggi 
+
+
+
+
+
 PROPERTY & VALEU BOX MODEL 
 - box-sizing: border-box;               - box-shadow: var(--shadow);
 box =    [ kotak / elemen ]               box        [ kotak ]
