@@ -8,4 +8,6 @@
 - offsetY = e.clientY - card.getBoundingClientRect().top;
 - card.style.transform = 'none'; 
 - document.addEventListener('mousemove', (e) => { .... }
--  if (!isDragging) return; 
+- if (!isDragging) return; 
+- let x = e.clientX - offsetX;
+- let y = e.clientY - offsetY;
