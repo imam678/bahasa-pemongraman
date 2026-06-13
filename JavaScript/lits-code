@@ -5,3 +5,4 @@
 - card.addEventListener('mousedown', (e) => {
 - isDragging = true;
 - offsetX = e.clientX - card.getBoundingClientRect().left;
+- offsetY = e.clientY - card.getBoundingClientRect().top;
