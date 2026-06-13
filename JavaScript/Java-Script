@@ -150,6 +150,22 @@ VARIABLES
 
 
 
+  if (!isDragging) return;
+- [ if ] Pernyataan kondisi: Digunakan untuk memeriksa apakah suatu syarat terpenuhi sebelum menjalankan kode di dalamnya.
+- [ (!isDragging) ]  Kondisi yang diperiksa:
+- [ ! ] Operator logika NOT: Membalikkan nilai logika (jika isDragging bernilai false, maka menjadi true, dan sebaliknya).
+- [ isDragging ] Variabel penanda: Biasanya berisi nilai true/false yang menunjukkan apakah sedang terjadi proses seret/geser elemen.
+- [ return ] Pernyataan pengembalian/keluar: Menghentikan eksekusi fungsi saat ini dan keluar darinya tanpa menjalankan kode berikutnya.
+
+
+
+
+
+
+
+
+
+
 
 
 
