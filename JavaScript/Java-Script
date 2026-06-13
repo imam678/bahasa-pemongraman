@@ -2,10 +2,10 @@
 
 <script>  // Berfungsi untuk menyisipkan atau memanggil kode JavaScript ke dalam halaman web.
 - [ = ]  Operator penugasan // Berfungsi memasukkan nilai di sebelah kanan ke dalam variabel di sebelah kiri.
-- [ , ]  Pemisah deklarasi // Berfungsi menuliskan lebih dari satu variabel dalam satu baris deklarasi.
+- [ - ]  Operator pengurangan: Melakukan operasi hitung kurang.
 - [ . ]  Operator akses properti/metode // Berfungsi memanggil metode yang dimiliki oleh objek di sebelah kirinya.
-- [ ; ] Tanda akhir pernyataan // Menandakan akhir baris perintah.
-
+- [ ; ]  Tanda akhir pernyataan // Menandakan akhir baris perintah.
+- [ , ]  Pemisah deklarasi // Berfungsi menuliskan lebih dari satu variabel dalam satu baris deklarasi.
 
 
 
