@@ -1,4 +1,23 @@
 
 
- <script>
+ <script> // Berfungsi untuk menyisipkan atau memanggil kode JavaScript ke dalam halaman web.
 
+
+
+VARIABLES
+- const // katakunci // Nilai konstanta tidak dapat diubah melalui penugasan ulang 
+
+
+
+
+
+
+
+ const card = document.getElementById('card');
+--------
+- [ const ]  Kata kunci deklarasi variabel
+- [ card ]   Nama variabel
+- [ = ]      Operator penugasan
+- [ document ] Objek utama dokumen HTML
+- [ .getElementById() ]  Metode/fungsi pencarian elemen // Berfungsi mencari elemen HTML berdasarkan atribut id-nya.
+- [ 'card' ] Argumen/parameter // Nilai yang dicari, yaitu nama id yang tertera di elemen HTML: <div id="card">...</div>
