@@ -198,6 +198,30 @@ VARIABLES
 
 
  card.style.left = `${x}px`;
+- [ card ] Referensi elemen DOM: Merujuk ke elemen HTML yang dipilih untuk diubah tampilannya.
+- [ .style ] Properti akses gaya: Digunakan untuk mengatur properti CSS elemen melalui JavaScript.
+- [ .left ] Properti CSS: Menentukan posisi horizontal elemen dari tepi kiri elemen induknya (berfungsi jika posisi elemen diatur sebagai relative, absolute, atau fixed).
+- [ = ] Operator penugasan: Memberikan nilai baru ke properti tersebut.
+- [ ${x}px ] Literal template / string dinamis:
+    `...` → Tanda kutip terbalik untuk membuat string yang bisa memuat variabel.
+     ${x} → Sintaks untuk menyisipkan nilai variabel x ke dalam string.
+     px → Satuan ukuran piksel, wajib digunakan agar nilai posisi dikenali oleh CSS.
+
+
+
+
+
+
+
+
+  card.style.top = `${y}px`;
+
+
+
+
+
+
+
 
 
 
