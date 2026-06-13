@@ -1,12 +1,16 @@
 
 
- <script> // Berfungsi untuk menyisipkan atau memanggil kode JavaScript ke dalam halaman web.
+<script>  // Berfungsi untuk menyisipkan atau memanggil kode JavaScript ke dalam halaman web.
+- [ = ]  Operator penugasan // Berfungsi memasukkan nilai di sebelah kanan ke dalam variabel di sebelah kiri.
+- [ , ]  Pemisah deklarasi // Berfungsi menuliskan lebih dari satu variabel dalam satu baris deklarasi.
+- [ . ]  Operator akses properti/metode // Berfungsi memanggil metode yang dimiliki oleh objek di sebelah kirinya.
 
 
 
 VARIABLES
-- const // katakunci // Nilai konstanta tidak dapat diubah melalui penugasan ulang 
+- const // Nilai konstanta tidak dapat diubah melalui penugasan ulang 
 
+- let // Yang dapat diberi nilai ulang setelah deklarasi
 
 
 
@@ -21,3 +25,72 @@ VARIABLES
 - [ document ] Objek utama dokumen HTML
 - [ .getElementById() ]  Metode/fungsi pencarian elemen // Berfungsi mencari elemen HTML berdasarkan atribut id-nya.
 - [ 'card' ] Argumen/parameter // Nilai yang dicari, yaitu nama id yang tertera di elemen HTML: <div id="card">...</div>
+
+
+
+
+
+
+ let isDragging = false;
+------
+- [ let ]  Kata kunci deklarasi variabel // Digunakan untuk membuat variabel yang nilainya bisa diubah di kemudian hari (berbeda dengan const yang tetap).
+- [ isDragging ] Nama variabel // Nama yang dibuat untuk menyimpan data. Biasanya nama seperti ini (awalan is) dipakai untuk nilai benar/salah (boolean).
+- [ = ]  Operator penugasan // Berfungsi memasukkan nilai di sebelah kanan ke dalam variabel di sebelah kiri.
+- [ false ] Nilai awal / Tipe data Boolean // Merupakan nilai logika yang artinya tidak aktif / tidak sedang berlangsung. Di sini artinya: "saat ini tidak ada proses penyeretan yang berjalan
+
+
+ let offsetX, offsetY;
+------
+- [ let ]  Kata kunci deklarasi variabel // Digunakan untuk membuat variabel yang nilainya nanti bisa diubah.
+- [ offsetX ]  Nama variabel pertama // Biasanya dipakai untuk menyimpan jarak posisi kursor dari sisi kiri elemen.
+- [ , ]  Pemisah deklarasi // Berfungsi menuliskan lebih dari satu variabel dalam satu baris deklarasi.
+- [ offsetY ] Nama variabel kedua // Biasanya dipakai untuk menyimpan jarak posisi kursor dari sisi atas elemen.
+
+
+
+
+
+
+
+
+ card.addEventListener('mousedown', (e) => {
+------ 
+- [ card ] Objek/Variabel elemen HTML // Merupakan elemen yang sudah dipilih sebelumnya (biasanya pakai getElementById atau sejenisnya). Di sini yang akan dipasangi pendengar peristiwa.
+- [ . ] Operator akses properti/metode // Berfungsi memanggil metode yang dimiliki oleh objek di sebelah kirinya.
+- [ addEventListener ]  Metode/fungsi pendengar peristiwa // Fungsinya: "Pantau elemen ini, jalankan aksi tertentu jika peristiwa yang diminta terjadi".
+- [ 'mousedown' ] Nama peristiwa/event // Jenis aksi yang dipantau. mousedown artinya: saat tombol kiri mouse ditekan di atas elemen.
+- [ , ] Pemisah parameter // Memisahkan nama peristiwa dengan fungsi yang akan dijalankan.
+- [ (e) ]  Parameter fungsi panggilan balik
+- [ e ] adalah singkatan dari event — objek yang menyimpan semua informasi tentang peristiwa yang terjadi (posisi kursor, tombol mana yang ditekan, dll).
+- [ => { ... } ]  Fungsi panah / Fungsi panggilan balik // Kode yang akan otomatis berjalan tepat saat peristiwa mousedown terjadi. Tanda { menandakan awal blok kode.
+
+
+
+
+
+
+ isDragging = true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
