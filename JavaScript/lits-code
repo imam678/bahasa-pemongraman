@@ -1,0 +1,6 @@
+- <script>
+- const card = document.getElementById('card');
+- let isDragging = false;
+- let offsetX, offsetY;
+- card.addEventListener('mousedown', (e) => {
+- isDragging = true;
