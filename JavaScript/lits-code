@@ -6,3 +6,4 @@
 - isDragging = true;
 - offsetX = e.clientX - card.getBoundingClientRect().left;
 - offsetY = e.clientY - card.getBoundingClientRect().top;
+- card.style.transform = 'none'; 
