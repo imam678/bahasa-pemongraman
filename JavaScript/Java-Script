@@ -215,7 +215,14 @@ VARIABLES
 
 
   card.style.top = `${y}px`;
-
+- [ card ] Referensi elemen DOM: Menunjuk ke elemen HTML yang akan diatur posisinya.
+- [ .style ] Properti gaya: Jembatan untuk mengubah nilai CSS elemen lewat JavaScript.
+- [ .top ] Properti CSS: Mengatur jarak vertikal elemen dari tepi atas induknya (berfungsi jika position diatur ke relative, absolute, atau fixed).
+- [ = ] Operator penugasan: Memberikan nilai di sebelah kanan ke properti di sebelah kiri.
+- [ `${y}px` ] Template string / string dinamis:
+      ` ` → Tanda kutip terbalik, mendukung penyisipan variabel.
+      ${y} → Menyisipkan nilai angka dari variabel y.
+      px → Satuan ukuran piksel, wajib agar CSS mengenali nilainya.
 
 
 
