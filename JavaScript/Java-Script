@@ -73,6 +73,7 @@ VARIABLES
 
 
  isDragging = true;
+-------
 - [ isDragging ] Nama variabel // Variabel yang sebelumnya sudah dideklarasikan (biasanya pakai let isDragging = false;). Berfungsi sebagai penanda status.
 - [ = ]  Operator penugasan // Berfungsi memberikan nilai baru ke variabel di sebelah kirinya.
 - [ true ]  Nilai tipe data Boolean // Artinya: benar / aktif / sedang berlangsung.
@@ -84,6 +85,7 @@ VARIABLES
 
 
  offsetX = e.clientX - card.getBoundingClientRect().left;
+---------
 - [ offsetX ] Variabel tujuan // Variabel yang sebelumnya sudah dideklarasikan (let offsetX;), tempat hasil perhitungan akan disimpan.
 - [ = ] Operator penugasan // Memberikan nilai hasil perhitungan di sebelah kanan ke variabel di sebelah kiri.
 - [ e ] Objek peristiwa (event object) // Berisi semua data tentang kejadian yang terjadi (dari parameter fungsi (e) di addEventListener).
@@ -102,6 +104,7 @@ VARIABLES
 
 
  offsetY = e.clientY - card.getBoundingClientRect().top;
+--------
 - [ offsetY ] Variabel tujuan // Variabel yang sudah dideklarasikan sebelumnya (let offsetY;), tempat menyimpan hasil perhitungan jarak vertikal.
 - [ = ] Operator penugasan // Memberikan nilai hasil perhitungan di sebelah kanan ke variabel di sebelah kiri.
 - [ e ] Objek peristiwa (event object) // Berisi semua data tentang kejadian mouse yang terjadi.
@@ -118,6 +121,13 @@ VARIABLES
 
 
 
+ card.style.transform = 'none'; 
+--------
+- [ card ] Variabel/elemen DOM: Merujuk ke elemen HTML yang dipilih (misalnya <div class="card">).
+- [ .style ] Properti objek gaya: Digunakan untuk mengakses dan mengubah properti CSS elemen secara langsung lewat JavaScript.
+- [ .transform ] Properti CSS: Mengatur transformasi visual elemen (seperti memutar, memperbesar, menggeser, memiringkan).
+- [ = ] Operator penugasan: Memberikan nilai baru ke properti tersebut.
+- [ 'none' ] Nilai: Menghapus semua transformasi yang diterapkan, mengembalikan elemen ke tampilan aslinya.
 
 
 
