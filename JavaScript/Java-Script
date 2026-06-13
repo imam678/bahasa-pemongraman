@@ -4,6 +4,8 @@
 - [ = ]  Operator penugasan // Berfungsi memasukkan nilai di sebelah kanan ke dalam variabel di sebelah kiri.
 - [ , ]  Pemisah deklarasi // Berfungsi menuliskan lebih dari satu variabel dalam satu baris deklarasi.
 - [ . ]  Operator akses properti/metode // Berfungsi memanggil metode yang dimiliki oleh objek di sebelah kirinya.
+- [ ; ] Tanda akhir pernyataan // Menandakan akhir baris perintah.
+
 
 
 
@@ -79,6 +81,18 @@ VARIABLES
 
 
 
+
+
+ offsetX = e.clientX - card.getBoundingClientRect().left;
+- [ offsetX ] Variabel tujuan // Variabel yang sebelumnya sudah dideklarasikan (let offsetX;), tempat hasil perhitungan akan disimpan.
+- [ = ] Operator penugasan // Memberikan nilai hasil perhitungan di sebelah kanan ke variabel di sebelah kiri.
+- [ e ] Objek peristiwa (event object) // Berisi semua data tentang kejadian yang terjadi (dari parameter fungsi (e) di addEventListener).
+- [ .clientX ]  Properti posisi kursor // Bagian dari objek e, menyimpan koordinat horizontal kursor mouse relatif terhadap jendela browser.
+- [ - ] Operator pengurangan // Digunakan untuk menghitung selisih antara dua nilai.
+- [ card ] Objek elemen HTML // Elemen yang dipilih sebelumnya dengan getElementById('card').
+- [ .getBoundingClientRect() ] Metode pengambil ukuran & posisi // Mengembalikan objek yang berisi data lengkap posisi, lebar, dan tinggi elemen di layar.
+- [ .left ] Properti posisi sisi kiri // Bagian dari hasil getBoundingClientRect(), menyimpan jarak sisi kiri elemen dari tepi kiri jendela browser.
+- [ ; ] Tanda akhir pernyataan // Menandakan akhir baris perintah.
 
 
 
