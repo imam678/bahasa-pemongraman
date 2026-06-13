@@ -69,7 +69,12 @@ VARIABLES
 
 
 
+
  isDragging = true;
+- [ isDragging ] Nama variabel // Variabel yang sebelumnya sudah dideklarasikan (biasanya pakai let isDragging = false;). Berfungsi sebagai penanda status.
+- [ = ]  Operator penugasan // Berfungsi memberikan nilai baru ke variabel di sebelah kirinya.
+- [ true ]  Nilai tipe data Boolean // Artinya: benar / aktif / sedang berlangsung.
+- [ ; ] Tanda akhir pernyataan // Menandakan bahwa baris perintah ini selesai.
 
 
 
