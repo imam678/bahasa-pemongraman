@@ -238,3 +238,13 @@ VARIABLES
 
 
 
+
+
+
+
+
+ isDragging = false;
+- [ isDragging ]] Variabel status/penanda: Variabel yang menyimpan kondisi apakah proses seret sedang berlangsung atau tidak (nilainya hanya true atau false).
+- [ = ] Operator penugasan: Berfungsi memasukkan nilai di sebelah kanan ke dalam variabel di sebelah kiri.
+- [ false ] Nilai boolean: Nilai logika yang berarti "tidak aktif", "tidak sedang berlangsung", atau "salah".
+
