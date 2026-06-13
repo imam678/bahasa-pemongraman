@@ -165,7 +165,13 @@ VARIABLES
 
 
 
-
+ let x = e.clientX - offsetX;
+- [ let ] Kata kunci deklarasi variabel: Digunakan untuk membuat variabel yang nilainya bisa diubah nantinya.
+- [ x ] Nama variabel: Tempat menyimpan hasil perhitungan posisi horizontal.
+- [ = ] Operator penugasan: Memberikan nilai hasil perhitungan di sebelah kanan ke variabel x.
+- [ e.clientX ] Properti objek peristiwa
+- [ - ] Operator pengurangan: Melakukan operasi hitung kurang.
+- [ offsetX ] Variabel/properti: Biasanya menyimpan selisih posisi awal kursor terhadap elemen saat mulai diseret.
 
 
 
