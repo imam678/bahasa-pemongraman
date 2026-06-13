@@ -12,3 +12,4 @@
 - let x = e.clientX - offsetX;
 - let y = e.clientY - offsetY;
 - card.style.left = `${x}px`;
+- card.style.top = `${y}px`;
