@@ -13,3 +13,4 @@
 - let y = e.clientY - offsetY;
 - card.style.left = `${x}px`;
 - card.style.top = `${y}px`;
+-  document.addEventListener('mouseup', () => { .... }
