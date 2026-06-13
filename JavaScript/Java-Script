@@ -230,7 +230,11 @@ VARIABLES
 
 
 
-
+ document.addEventListener('mouseup', () => {
+- [ document ]  Objek DOM utama: Merujuk ke seluruh halaman web yang sedang aktif.
+- [ .addEventListener() ] Metode pemantau peristiwa: Berfungsi mendaftarkan pendengar agar merespons kejadian tertentu.
+- [ 'mouseup' ] Jenis peristiwa: Terjadi saat tombol tetikus dilepaskan setelah ditekan (kebalikan dari mousedown).
+- [ () => {} ] Fungsi panah: Kode yang akan dijalankan secara otomatis begitu peristiwa mouseup terdeteksi.
 
 
 
