@@ -136,6 +136,24 @@ VARIABLES
 
 
 
+ document.addEventListener('mousemove', (e) => { .... }
+- [ document ] Objek utama DOM: Merujuk ke seluruh halaman HTML yang sedang dibuka di peramban.
+- [ .addEventListener() ] Metode: Berfungsi untuk "mendengarkan" atau menangkap peristiwa tertentu pada elemen.
+- [ 'mousemove' ] Jenis peristiwa (event): Nama peristiwa yang dipantau — di sini berarti pergerakan kursor tetikus.
+- [ (e) ] Parameter/objek peristiwa: Variabel penampung data lengkap tentang peristiwa yang terjadi (misalnya posisi kursor, tombol mana yang ditekan, dll). Singkatan e adalah singkatan umum dari event.
+- [ => {} ]  Fungsi panah: Fungsi yang akan dijalankan secara otomatis setiap kali peristiwa mousemove terjadi.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
