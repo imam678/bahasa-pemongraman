@@ -101,8 +101,16 @@ VARIABLES
 
 
 
-
-
+ offsetY = e.clientY - card.getBoundingClientRect().top;
+- [ offsetY ] Variabel tujuan // Variabel yang sudah dideklarasikan sebelumnya (let offsetY;), tempat menyimpan hasil perhitungan jarak vertikal.
+- [ = ] Operator penugasan // Memberikan nilai hasil perhitungan di sebelah kanan ke variabel di sebelah kiri.
+- [ e ] Objek peristiwa (event object) // Berisi semua data tentang kejadian mouse yang terjadi.
+- [ .clientY ] Properti posisi kursor vertikal // Menyimpan koordinat vertikal kursor mouse relatif terhadap jendela browser.
+- [ - ] Operator pengurangan // Menghitung selisih antara dua nilai.
+- [ card ] Objek elemen HTML // Elemen yang dipilih sebelumnya (dengan getElementById).
+- [ .getBoundingClientRect() ] Metode pengambil posisi & ukuran // Mengembalikan objek yang berisi data posisi elemen di layar.
+- [ .top ]  Properti posisi sisi atas // Menyimpan jarak sisi atas elemen dari tepi atas jendela browser.
+- [ ; ] Tanda akhir pernyataan // Menandakan akhir baris kode.
 
 
 
