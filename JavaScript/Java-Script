@@ -197,7 +197,7 @@ VARIABLES
 
 
 
-
+ card.style.left = `${x}px`;
 
 
 
