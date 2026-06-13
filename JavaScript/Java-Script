@@ -180,3 +180,26 @@ VARIABLES
 
 
 
+
+ let y = e.clientY - offsetY;
+- [ let ] Kata kunci deklarasi variabel: Digunakan untuk membuat variabel yang nilainya dapat diubah selama program berjalan.
+- [ y ]   Nama variabel: Tempat menyimpan hasil perhitungan posisi vertikal.
+- [ = ]   Operator penugasan: Memasukkan nilai hasil perhitungan di sebelah kanan ke dalam variabel y.
+- [ e.clientY ] Properti objek peristiwa:
+- [ - ]         Operator aritmatika pengurangan: Berfungsi mengurangi nilai di sebelah kanan dari nilai di sebelah kiri.
+- [ offsetY ] Variabel penanda: Biasanya menyimpan jarak vertikal antara titik awal kursor dengan tepi atas elemen saat proses seret dimulai.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
