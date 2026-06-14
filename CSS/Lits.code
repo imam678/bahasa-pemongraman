@@ -1,42 +1,78 @@
 
-margin  [ ruang di sekitar  ]              background [ latar-belakang ]            top [ atas ] 
-          elemen                           border-radius [ bentuk lengkung ]        left [ kiri ]
+margin  [ ruang di sekitar  ]              background    [ latar-belakang ]         top    [ atas ] 
+          elemen                           border-radius [ bentuk lengkung ]        left   [ kiri ]
 min-height [ minimal tinggi ]                                                       buttom [ bawah ]   
-height [ tinggi ]                                                                   right [ kanan ]
-width [ lebar ]
+height     [ tinggi ]                                                               right  [ kanan ]
+width      [ lebar ]
 
+
+
+
+
+
+
+
+background: rgba(147, 147, 202, 0.467);
+background-color: rgb(255, 0, 0);
+background-color: white;
+background-color: hsl(180, 100%, 50%);
+-----
+color: white;
+color: rgb(41, 118, 211);
+
+
+
+
+
+
+
+
+border-color: rgb(41, 118, 211);
+border-radius: 16px;
+border-style: solid;
+border-width: 1px;
+border: none;
 
 
 
 
 
 margin: 0;
-min-height: 100vh;
-background: rgba(147, 147, 202, 0.467);
-position: relative;
-overflow: auto;
+margin-left: 8px;
 
 
 
 
-position: absolute;
+
+
 width: 400px;
 height: 100px;
-background-color: hsl(180, 100%, 50%);
-border-radius: 16px;
-user-select: none;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%)
+min-height: 100vh;
+
+
+
 
 
 
 
 cursor: grabbing;
 cursor: grab;
+cursor: pointer;
+
+
+
+position: relative;
+position: absolute;
 
 
 
 
 
+
+
+overflow: auto;
+user-select: none;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
 
