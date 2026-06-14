@@ -1,31 +1,39 @@
 
-
-body {
-    margin: 0;
-    min-height: 100vh;
-    background: rgba(147, 147, 202, 0.467);
-    position: relative;
-    overflow: auto;
-}
+margin  [ ruang di sekitar  ]              background [ latar-belakang ]            top [ atas ] 
+          elemen                           border-radius [ bentuk lengkung ]        left [ kiri ]
+min-height [ minimal tinggi ]                                                       buttom [ bawah ]   
+height [ tinggi ]                                                                   right [ kanan ]
+width [ lebar ]
 
 
-card {
-    position: absolute;
-    width: 400px;
-    height: 100px;
-    background-color: hsl(180, 100%, 50%);
-    border-radius: 16px;
-    cursor: grab;
-    user-select: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
 
 
-.card:active {
-    cursor: grabbing;
-}
+
+
+margin: 0;
+min-height: 100vh;
+background: rgba(147, 147, 202, 0.467);
+position: relative;
+overflow: auto;
+
+
+
+
+position: absolute;
+width: 400px;
+height: 100px;
+background-color: hsl(180, 100%, 50%);
+border-radius: 16px;
+user-select: none;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+
+
+
+
+cursor: grabbing;
+cursor: grab;
 
 
 
