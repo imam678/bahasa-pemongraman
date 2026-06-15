@@ -68,6 +68,12 @@ position: absolute;
 
 
 
+transition: opacity 0.15s;
+transition: background-color 1s, // liat tanda koma ,
+      color 1s;
+
+
+
 
 overflow: auto;
 user-select: none;
